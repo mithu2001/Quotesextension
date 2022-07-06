@@ -1,0 +1,22 @@
+p{
+    padding: 10px;
+    font-size: 16px;
+    min-width: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2);
+    
+}
+
+.container{
+    width: 400px;
+    height:10px;
+    margin-bottom: 4px;
+}
+#parag{
+    color: red;
+}
+#quote{
+    color: rgb(16, 16, 14);
+}
+#author{
+    color: rgb(195, 10, 242);
+}

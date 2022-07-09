@@ -1,3 +1,4 @@
+//Fetch Api start
 const getjokes = async() => {
     const abc = await fetch("https://quotes15.p.rapidapi.com/quotes/random/?language_code=en", {
         "method": "GET",
@@ -15,6 +16,10 @@ const getjokes = async() => {
         console.log(err);
     });
 }
+//Fetch Api end
+
+
+//window object || when window load getjokes() function will call
 window.addEventListener("load",()=>{
     getjokes();
 })
